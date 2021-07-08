@@ -8,7 +8,7 @@ function App() {
   console.log("Render App");
   const [theme, setTheme] = useState('red');
   return (
-    <ThemeContext.Provider value={{ backgroundColor: theme}}>
+    <ThemeContext.Provider value={{ backgroundcolor: theme}}>
       Counter
       <Counter initialCount={0} />
       Counter Hooks 
